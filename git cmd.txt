@@ -2,3 +2,5 @@ changes: git status
 add changes: git add "file name"
 add all the changes: git add .
 commit the changes: git commit -m " any mesaage"
+see all the commits: git log (in one line --oneline) 
+reset last one change: git reset --soft HEAD~1
