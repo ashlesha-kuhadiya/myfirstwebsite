@@ -4,7 +4,30 @@
   font-size: 150%;  
   background-color: rgb(145, 55, 27); 
 }
-
+.main-wrapper {
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+}
+a.link-website {
+  text-decoration: none;
+  color: black;
+  padding: 60px;
+  margin: 20px;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+.footer-center {
+  text-align: center;
+  font-family: monospace;
+}
+a.link-website:hover {
+  background: lightgrey;
+  opacity: 80%;
+}
 #top h1 {
   margin:0;
   line-height: 50px;
@@ -58,7 +81,20 @@ border: 3px solid #6568cb;
 }
 
 #mainContentArea {margin :10%;}
-
+.common-button{
+  text-align: center;
+    padding: 5px;
+    width: 65px;
+    height: 20px;
+    border-radius: 10px;
+    color: green;
+    border: 2px solid green;
+    cursor: pointer;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    text-decoration: none;
+}
 #title {
   font-weight: bold;
   font-size: 300%;

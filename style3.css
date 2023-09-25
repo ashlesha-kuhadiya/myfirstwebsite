@@ -16,6 +16,20 @@ font-size: 43px;
 .off{
     color: #67A0F5;
 }
+.common-button{
+    text-align: center;
+      padding: 5px;
+      width: 65px;
+      height: 20px;
+      border-radius: 10px;
+      color: green;
+      border: 2px solid green;
+      cursor: pointer;
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      text-decoration: none;
+  }
 #header{
     display: flex;
     align-items: baseline;
