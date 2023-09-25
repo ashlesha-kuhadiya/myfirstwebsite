@@ -142,20 +142,9 @@ flex-direction: column;}
 }
 #bar{display: flex;
   justify-content: space-between;
-  padding: 20px 20px;
+  padding: 2% 4%;
   color: white;
   background-color: #be9d2d;
-  cursor: pointer;
-}
-#bar>a:hover{ opacity: 50%;
-  background: #745f1b;
-padding: 5px 12px;}
-  
-
-#bar>a{text-decoration: none;
-  color: #040211fa;
-  font-weight: bold;
-  
 }
 .contentTitle{font-size: 100%;
   background-color:#f6f9f5 ;
