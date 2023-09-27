@@ -1,6 +1,8 @@
 body{text-align: center;
     font-family: Verdana,Arial,Helvetica,sans-serif;
 }
+#all{margin: 10px 200px;
+}
 .common-button{
     text-align: center;
       padding: 5px;
@@ -21,8 +23,8 @@ font-size: 110%;
 }
 
 .menubar-item{display: flex;
-    background: #a1b6d8;
-    text-align: center;
+    justify-content: right;
+    background: #9a3d3b;
     border-radius: 10px;
     margin: auto;
 }
@@ -34,4 +36,22 @@ font-size: 110%;
 
 .menuitem>a{text-decoration: none;
     font-size: 80%;
+    color: white;
+    padding: 20px 20px;
+}
+.menuitem>a:hover{
+    opacity: 90%;
+    background: #f06765;
+  }
+  #main{
+    display: flex;
+  }
+  #right-menu{
+    color:#800;
+    width: 600px;
+}
+.rightmenu>a{
+    list-style: none;
+    text-decoration: none;
+    color: #b65858;
 }
