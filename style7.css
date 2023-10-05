@@ -3,6 +3,20 @@
   color: #ffffff;
   padding: 2% 1%;
 }
+.common-button{
+    text-align: center;
+      padding: 5px;
+      width: 65px;
+      height: 20px;
+      border-radius: 10px;
+      color: rgb(0, 10, 0);
+      border: 2px solid rgb(0, 11, 0);
+      cursor: pointer;
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      text-decoration: none;
+  }
 .menuitem{
 list-style: none;
 }
